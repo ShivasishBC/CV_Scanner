@@ -3,3 +3,4 @@ langchain_core
 pypdf
 docx2txt
 streamlit
+python-dotenv
