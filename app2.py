@@ -87,7 +87,7 @@ llm = st.sidebar.selectbox("Select Openai Model", ["gpt-4", "gpt-4-turbo", "gpt-
 
 # Adjust parameter using slider
 temperature = st.sidebar.slider("Temperature", min_value=0.0, max_value=1.0, value=0.7)
-max_tokens = st.sidebar.slider("Max tokens", min_value=50, max_value=300, value=150)
+max_tokens = st.sidebar.slider("Max tokens", min_value=50, max_value=500, value=150)
 
 # Main Interface for user Input
 st.write("Upload Job Description and CVs to get relevance scores")
